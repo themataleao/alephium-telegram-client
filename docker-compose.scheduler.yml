@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+    scheduler:
+        depends_on:
+          - alephium
+        build:
+            context: ./scheduler
+        restart: unless-stopped
