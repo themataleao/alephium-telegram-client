@@ -16,8 +16,8 @@ Enjoy the rewards.
 
 # Alephium node and miner installation guide
 
-1. Download Nvidia-docker
-2. install docker-compose
+1. Download [Nvidia-docker](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html#docker)
+2. install [docker-compose](https://docs.docker.com/compose/install/#install-compose-on-linux-systems)
 3. Run `git clone https://github.com/alephium/alephium.git`
 4. Go to `alephium/docker/` directory
 5. Run `docker-compose up -d` to run the node
